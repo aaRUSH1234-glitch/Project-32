@@ -140,7 +140,7 @@ async function getBackgroundImg(){
   console.log(datetime);
   console.log(hour);
   
-  if(hour>0600 && hour<=1900){
+  if(hour>06 && hour<=19){
     backgroundImg = loadImage("DayImage.jpg");
       console.log("loading day image")
   }
